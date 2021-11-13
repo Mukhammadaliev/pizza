@@ -90,4 +90,3 @@ const PizzaBlock = ({id, name, price, imageUrl, types, sizes, onClickAddPizza, a
 }
 
 export default PizzaBlock
-{}
