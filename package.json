@@ -21,10 +21,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\"  \"json-server -p 3001 -w public/db.json\"",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node react-scripts start",
+    "build": "node react-scripts build",
+    "test": "node react-scripts test",
+    "eject": "node react-scripts eject",
+    "server": "node server.js",
+    "json-server": "npx json-server --watch public/db.json --port=8080"
   },
   "eslintConfig": {
     "extends": [
